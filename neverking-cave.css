@@ -53,7 +53,7 @@ https://www.lioden.com/topic.php?id=304429491963
 /* Body */
 body {
     font-family: var(--mainFont);
-    background: #f0ecf8 url('../../../chris105465.github.io/img/scenic/lavender-field.jpg') fixed;
+    background: #f0ecf8 url('chris105465.github.io/layouts/img/scenics/lavender-field.jpg') fixed;
     background-position-y: center;
     background-position-x: center;
     /* DON'T CHANGE BELOW */
