@@ -341,6 +341,12 @@ a:focus {
     box-shadow: var(--bodyShadow);
 }
 
+/* Make small boxes scrollable */
+.smallBox {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
 /* comment box */
 #commentBox {
     border: 1px solid var(--borderColor) !important;
@@ -1251,7 +1257,8 @@ a[href$='./chat.php'] {
     width: 450px;
     margin: 20px;
     margin-bottom: 0;
-    overflow: hidden;
+    max-height: 400px;
+    overflow-y: auto;
     float: left;
     transition: 2s;
 }
