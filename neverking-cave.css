@@ -1183,8 +1183,28 @@ a[href$='./chat.php'] {
         height: 450px !important;
     }
 }
+/*Page doll*/
+.page-doll {
+    width: 300px;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    z-index: 1;
+}
 
+@media (max-width: 993px) {
+    .page-doll {
+        width: 200px;
+    }
+}
 
+@media (max-width: 768px) {
+    .page-doll {
+        width: 150px;
+    }
+}
+
+/*Page Boxes*/
 .bigBox {
     background: #A3B4AE;
     color: #000;
@@ -1192,9 +1212,16 @@ a[href$='./chat.php'] {
     padding: 30px;
     margin: 20px;
     margin-bottom: 0;
-    height: 200px;
+    height: 80px;
     overflow: hidden;
     transition: 2s;
+}
+
+.bigBox:hover,
+.smallBox:hover {
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .bigBox h1,
@@ -1220,7 +1247,7 @@ a[href$='./chat.php'] {
     color: #000;
     border-radius: 3px;
     padding: 20px;
-    height: 200px;
+    height: 60px;
     width: 450px;
     margin: 20px;
     margin-bottom: 0;
@@ -1229,22 +1256,19 @@ a[href$='./chat.php'] {
     transition: 2s;
 }
 
-.page-doll {
-    width: 300px;
-    position: fixed;
-    bottom: 5px;
-    right: 10px;
-    z-index: 1;
-}
-
-@media (max-width: 993px) {
-    .page-doll {
-        width: 200px;
-    }
-}
-
 @media (max-width: 768px) {
-    .page-doll {
-        width: 150px;
+    #fraProfileContent.hidden-xs {
+        display: block !important;
+    }
+
+    .bigBox,
+    .smallBox {
+        height: 150px !important;
+        overflow: auto;
+    }
+
+    .bigBox:hover,
+    .smallBox:hover {
+        height: 150px !important;
     }
 }
