@@ -1232,12 +1232,12 @@ a[href$='./chat.php'] {
     transition: 2s;
 }
 
-.bigBox:hover,
+/*.bigBox:hover,
 .smallBox:hover {
     height: 500px;
     overflow-x: hidden;
     overflow-y: auto;
-}
+}*/
 
 .bigBox h1,
 .bigBox h2,
@@ -1262,11 +1262,11 @@ a[href$='./chat.php'] {
     color: #000;
     border-radius: 3px;
     padding: 20px;
-    height: 200px !important;
+    height: 350px !important;
     width: 450px;
     margin: 20px;
     margin-bottom: 0;
-    max-height: 400px;
+    /*max-height: 400px;*/
     overflow-y: auto;
     float: left;
     transition: 2s;
