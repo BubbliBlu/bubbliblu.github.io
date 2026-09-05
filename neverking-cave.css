@@ -242,7 +242,9 @@ a:focus {
 }
 
 /* if you want all to match comment out the next three classes */
+
 /* exp, hunger, energy, and thirst respectively */
+
 /* .progress-bar-success {
     background: #ffc680;
     }
@@ -510,6 +512,7 @@ input::placeholder {
 }
 
 /* Caves and Mounds Main */
+
 /* main overrides */
 .mound-grid,
 .cave-grid {
@@ -547,6 +550,7 @@ img[src$='//static.lioden.com/images/layout/prideoverviewbanner.png'] {
 }
 
 /* unsorted lions */
+
 /* img[src$='//static.lioden.com/images/layout/unsortedlionsbanner.png'] {
     content: url('LINK');
     object-position: top;
@@ -567,6 +571,7 @@ img[src$='//static.lioden.com/images/layout/prideoverviewbanner.png'] {
     padding: 5px;
     } */
 /* pride tab text overlay code by Chris (#105465) (credit must remain intact for any use of this code and I do not permit it to be used for comms or free css without explicit permission from me.) */
+
 /* mobile section */
 @media (max-width: 768px) {
 
@@ -783,6 +788,7 @@ div.feature h3 {
 }
 
 /* Dynasty Pills */
+
 /* dynasty main */
 div.left {
     background: var(--tc);
@@ -850,6 +856,7 @@ a div.left:focus {
 }
 
 /* Buttons */
+
 /* all */
 a.button,
 .select-control,
@@ -988,6 +995,7 @@ footer a:focus {
 }
 
 /*#region Chat */
+
 /* main container */
 #chatMessageContainer {
     border: 1px solid var(--borderColor);
@@ -1189,6 +1197,7 @@ a[href$='./chat.php'] {
         height: 450px !important;
     }
 }
+
 /*Page doll*/
 .page-doll {
     width: 300px;
@@ -1253,7 +1262,7 @@ a[href$='./chat.php'] {
     color: #000;
     border-radius: 3px;
     padding: 20px;
-    height: 60px;
+    height: 200px;
     width: 450px;
     margin: 20px;
     margin-bottom: 0;
